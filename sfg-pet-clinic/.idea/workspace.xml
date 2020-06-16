@@ -10,15 +10,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Fixed parse issue on PetType. Closes #65">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Upgrading to Java 11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/test/java/guru/springframework/sfgpetclinic/controllers/OwnerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/test/java/guru/springframework/sfgpetclinic/controllers/OwnerControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sfg-pet-clinic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sfg-pet-clinic.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
     <list id="9bb7b8ac-60af-4def-a823-112f625ff129" name="fixup! Implement Owner displaying record. Closes #53" comment="fixup! Implement Owner displaying record. Closes #53" />
@@ -228,13 +222,6 @@
       <workItem from="1591611456491" duration="4616000" />
       <workItem from="1591697571619" duration="3511000" />
       <workItem from="1591975861259" duration="36455000" />
-    </task>
-    <task id="LOCAL-00014" summary="Adding specialties to vets on startup. Closes #34">
-      <created>1591350053804</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1591350053804</updated>
     </task>
     <task id="LOCAL-00015" summary="Fixed Broken Links. Closes  #45">
       <created>1591351263297</created>
@@ -572,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592223147152</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Upgrading to Java 11">
+      <created>1592313593992</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1592313593992</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,7 +669,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added tests. Closes #49" />
     <MESSAGE value="Added jpa tests for owner service. Closes #50" />
     <MESSAGE value="Added MockMvc Tests for Owner Controller. Closes #52" />
     <MESSAGE value="Addinf circleCi build file" />
@@ -700,7 +693,8 @@
     <MESSAGE value="Adding builder pattern to PetType. #56" />
     <MESSAGE value="Added add pet, update pet. Closes  #56" />
     <MESSAGE value="Fixed parse issue on PetType. Closes #65" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed parse issue on PetType. Closes #65" />
+    <MESSAGE value="Upgrading to Java 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upgrading to Java 11" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -776,38 +770,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="591" y="310" key="Github.ShareDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591975640236" />
-    <state width="1557" height="127" key="GridCell.Tab.0.bottom" timestamp="1592313282734">
+    <state width="1557" height="57" key="GridCell.Tab.0.bottom" timestamp="1592313904909">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="127" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313282734" />
-    <state width="1557" height="127" key="GridCell.Tab.0.center" timestamp="1592313282734">
+    <state width="1557" height="57" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313904909" />
+    <state width="1557" height="57" key="GridCell.Tab.0.center" timestamp="1592313904908">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="127" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313282734" />
-    <state width="1557" height="127" key="GridCell.Tab.0.left" timestamp="1592313282734">
+    <state width="1557" height="57" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313904908" />
+    <state width="1557" height="57" key="GridCell.Tab.0.left" timestamp="1592313904908">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="127" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313282734" />
-    <state width="1557" height="127" key="GridCell.Tab.0.right" timestamp="1592313282734">
+    <state width="1557" height="57" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313904908" />
+    <state width="1557" height="57" key="GridCell.Tab.0.right" timestamp="1592313904909">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="127" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313282734" />
-    <state width="1557" height="43" key="GridCell.Tab.1.bottom" timestamp="1592311694180">
+    <state width="1557" height="57" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313904909" />
+    <state width="1557" height="57" key="GridCell.Tab.1.bottom" timestamp="1592313904909">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="43" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592311694180" />
-    <state width="1557" height="43" key="GridCell.Tab.1.center" timestamp="1592311694179">
+    <state width="1557" height="57" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313904909" />
+    <state width="1557" height="57" key="GridCell.Tab.1.center" timestamp="1592313904909">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="43" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592311694179" />
-    <state width="1557" height="43" key="GridCell.Tab.1.left" timestamp="1592311694179">
+    <state width="1557" height="57" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313904909" />
+    <state width="1557" height="57" key="GridCell.Tab.1.left" timestamp="1592313904909">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="43" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592311694179" />
-    <state width="1557" height="43" key="GridCell.Tab.1.right" timestamp="1592311694179">
+    <state width="1557" height="57" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313904909" />
+    <state width="1557" height="57" key="GridCell.Tab.1.right" timestamp="1592313904909">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="43" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592311694179" />
+    <state width="1557" height="57" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313904909" />
     <state width="1557" height="127" key="GridCell.Tab.2.bottom" timestamp="1591527678983">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -848,10 +842,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="647" y="344" key="VCS.ChangelistChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591976054371" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1592223149876">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1592313608961">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592223149876" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313608961" />
     <state x="616" y="208" key="chooseDestDirectoryDialog" timestamp="1591460351573">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -892,10 +886,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="182" y="91" key="new project wizard/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591264013507" />
-    <state x="456" y="195" width="672" height="677" key="run.anything.popup" timestamp="1592312931521">
+    <state x="456" y="195" width="672" height="677" key="run.anything.popup" timestamp="1592314498671">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="456" y="195" width="672" height="677" key="run.anything.popup/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592312931521" />
+    <state x="456" y="195" width="672" height="677" key="run.anything.popup/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592314498671" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1592213880852">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
