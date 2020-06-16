@@ -10,9 +10,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Upgrading to Java 11">
+    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Written test for empty find owner last name by to return all. Closes #64">
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/test/java/guru/springframework/sfgpetclinic/controllers/VisitControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/test/java/guru/springframework/sfgpetclinic/controllers/OwnerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/test/java/guru/springframework/sfgpetclinic/controllers/OwnerControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
     <list id="9bb7b8ac-60af-4def-a823-112f625ff129" name="fixup! Implement Owner displaying record. Closes #53" comment="fixup! Implement Owner displaying record. Closes #53" />
@@ -28,8 +28,8 @@
         <option value="Kotlin File" />
         <option value="Interface" />
         <option value="HTML File" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -112,7 +112,7 @@
       <command value="mvn install -DskipTests=true" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SfgPetClinicApplication">
+  <component name="RunManager" selected="JUnit.VisitControllerTest.initNewVisitForm">
     <configuration name="All in pet-clinic-web" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pet-clinic-web" />
       <option name="PACKAGE_NAME" value="" />
@@ -121,7 +121,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OwnerControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OwnerControllerTest.processFindFormReturnMany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pet-clinic-web" />
       <extension name="coverage">
         <pattern>
@@ -131,12 +131,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.controllers" />
       <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.controllers.OwnerControllerTest" />
+      <option name="METHOD_NAME" value="processFindFormReturnMany" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisitControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pet-clinic-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.controllers" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.controllers.VisitControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OwnerControllerTest.findOwners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VisitControllerTest.initNewVisitForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pet-clinic-web" />
       <extension name="coverage">
         <pattern>
@@ -145,14 +161,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.controllers" />
-      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.controllers.OwnerControllerTest" />
-      <option name="METHOD_NAME" value="findOwners" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.controllers.VisitControllerTest" />
+      <option name="METHOD_NAME" value="initNewVisitForm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OwnerControllerTest.listOwnersByIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VisitControllerTest.precessNewVisitForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pet-clinic-web" />
       <extension name="coverage">
         <pattern>
@@ -161,24 +177,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.controllers" />
-      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.controllers.OwnerControllerTest" />
-      <option name="METHOD_NAME" value="listOwnersByIndex" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OwnerControllerTest.processCreationForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pet-clinic-web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="guru.springframework.sfgpetclinic.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.controllers" />
-      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.controllers.OwnerControllerTest" />
-      <option name="METHOD_NAME" value="processCreationForm" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.controllers.VisitControllerTest" />
+      <option name="METHOD_NAME" value="precessNewVisitForm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -193,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VisitControllerTest.initNewVisitForm" />
+        <item itemvalue="JUnit.VisitControllerTest.precessNewVisitForm" />
+        <item itemvalue="JUnit.VisitControllerTest" />
+        <item itemvalue="JUnit.OwnerControllerTest.processFindFormReturnMany" />
         <item itemvalue="JUnit.All in pet-clinic-web" />
-        <item itemvalue="JUnit.OwnerControllerTest" />
-        <item itemvalue="JUnit.OwnerControllerTest.processCreationForm" />
-        <item itemvalue="JUnit.OwnerControllerTest.findOwners" />
-        <item itemvalue="JUnit.OwnerControllerTest.listOwnersByIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -222,13 +222,6 @@
       <workItem from="1591611456491" duration="4616000" />
       <workItem from="1591697571619" duration="3511000" />
       <workItem from="1591975861259" duration="36455000" />
-    </task>
-    <task id="LOCAL-00015" summary="Fixed Broken Links. Closes  #45">
-      <created>1591351263297</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1591351263297</updated>
     </task>
     <task id="LOCAL-00016" summary="Updated base entity with JPA annotations. Close #35">
       <created>1591441674542</created>
@@ -566,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592313593992</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Written test for empty find owner last name by to return all. Closes #64">
+      <created>1592314807054</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1592314807055</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -669,7 +669,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added jpa tests for owner service. Closes #50" />
     <MESSAGE value="Added MockMvc Tests for Owner Controller. Closes #52" />
     <MESSAGE value="Addinf circleCi build file" />
     <MESSAGE value="Adding badge. #60" />
@@ -694,7 +693,8 @@
     <MESSAGE value="Added add pet, update pet. Closes  #56" />
     <MESSAGE value="Fixed parse issue on PetType. Closes #65" />
     <MESSAGE value="Upgrading to Java 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upgrading to Java 11" />
+    <MESSAGE value="Written test for empty find owner last name by to return all. Closes #64" />
+    <option name="LAST_COMMIT_MESSAGE" value="Written test for empty find owner last name by to return all. Closes #64" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -770,38 +770,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="591" y="310" key="Github.ShareDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591975640236" />
-    <state width="1557" height="57" key="GridCell.Tab.0.bottom" timestamp="1592313904909">
+    <state width="1404" height="328" key="GridCell.Tab.0.bottom" timestamp="1592324424553">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="57" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313904909" />
-    <state width="1557" height="57" key="GridCell.Tab.0.center" timestamp="1592313904908">
+    <state width="1404" height="328" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592324424553" />
+    <state width="1404" height="328" key="GridCell.Tab.0.center" timestamp="1592324424552">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="57" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313904908" />
-    <state width="1557" height="57" key="GridCell.Tab.0.left" timestamp="1592313904908">
+    <state width="1404" height="328" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592324424552" />
+    <state width="1404" height="328" key="GridCell.Tab.0.left" timestamp="1592324424552">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="57" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313904908" />
-    <state width="1557" height="57" key="GridCell.Tab.0.right" timestamp="1592313904909">
+    <state width="1404" height="328" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592324424552" />
+    <state width="1404" height="328" key="GridCell.Tab.0.right" timestamp="1592324424553">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="57" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313904909" />
-    <state width="1557" height="57" key="GridCell.Tab.1.bottom" timestamp="1592313904909">
+    <state width="1404" height="328" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592324424553" />
+    <state width="1405" height="170" key="GridCell.Tab.1.bottom" timestamp="1592314889667">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="57" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313904909" />
-    <state width="1557" height="57" key="GridCell.Tab.1.center" timestamp="1592313904909">
+    <state width="1405" height="170" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592314889667" />
+    <state width="1405" height="170" key="GridCell.Tab.1.center" timestamp="1592314889666">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="57" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313904909" />
-    <state width="1557" height="57" key="GridCell.Tab.1.left" timestamp="1592313904909">
+    <state width="1405" height="170" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592314889666" />
+    <state width="1405" height="170" key="GridCell.Tab.1.left" timestamp="1592314889666">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="57" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313904909" />
-    <state width="1557" height="57" key="GridCell.Tab.1.right" timestamp="1592313904909">
+    <state width="1405" height="170" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592314889666" />
+    <state width="1405" height="170" key="GridCell.Tab.1.right" timestamp="1592314889667">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="57" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313904909" />
+    <state width="1405" height="170" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592314889667" />
     <state width="1557" height="127" key="GridCell.Tab.2.bottom" timestamp="1591527678983">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -842,18 +842,18 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="647" y="344" key="VCS.ChangelistChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591976054371" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1592313608961">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1592314810213">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592313608961" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592314810213" />
     <state x="616" y="208" key="chooseDestDirectoryDialog" timestamp="1591460351573">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="616" y="208" key="chooseDestDirectoryDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591460351573" />
-    <state x="529" y="192" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592146908369">
+    <state x="529" y="192" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592322503681">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="529" y="192" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592146908369" />
+    <state x="529" y="192" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592322503681" />
     <state x="530" y="180" key="extract.method.dialog" timestamp="1591349435887">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -886,10 +886,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="182" y="91" key="new project wizard/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591264013507" />
-    <state x="456" y="195" width="672" height="677" key="run.anything.popup" timestamp="1592314498671">
+    <state x="456" y="195" width="672" height="677" key="run.anything.popup" timestamp="1592322651540">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="456" y="195" width="672" height="677" key="run.anything.popup/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592314498671" />
+    <state x="456" y="195" width="672" height="677" key="run.anything.popup/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592322651540" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1592213880852">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
