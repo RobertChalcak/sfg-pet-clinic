@@ -10,9 +10,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Written test for empty find owner last name by to return all. Closes #64">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/test/java/guru/springframework/sfgpetclinic/controllers/VisitControllerTest.java" afterDir="false" />
+    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Written test for Spring MockMVC Test for Visit Controller closes #67">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/VisitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/VisitController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
     <list id="9bb7b8ac-60af-4def-a823-112f625ff129" name="fixup! Implement Owner displaying record. Closes #53" comment="fixup! Implement Owner displaying record. Closes #53" />
@@ -222,13 +223,6 @@
       <workItem from="1591611456491" duration="4616000" />
       <workItem from="1591697571619" duration="3511000" />
       <workItem from="1591975861259" duration="36455000" />
-    </task>
-    <task id="LOCAL-00016" summary="Updated base entity with JPA annotations. Close #35">
-      <created>1591441674542</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1591441674542</updated>
     </task>
     <task id="LOCAL-00017" summary="Updated owner with JPA entity mappings. Closes #36">
       <created>1591442391235</created>
@@ -566,7 +560,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592314807055</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Written test for Spring MockMVC Test for Visit Controller closes #67">
+      <created>1592326911140</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1592326911140</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -669,7 +670,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added MockMvc Tests for Owner Controller. Closes #52" />
     <MESSAGE value="Addinf circleCi build file" />
     <MESSAGE value="Adding badge. #60" />
     <MESSAGE value="Updated CircleCI configuration" />
@@ -694,7 +694,8 @@
     <MESSAGE value="Fixed parse issue on PetType. Closes #65" />
     <MESSAGE value="Upgrading to Java 11" />
     <MESSAGE value="Written test for empty find owner last name by to return all. Closes #64" />
-    <option name="LAST_COMMIT_MESSAGE" value="Written test for empty find owner last name by to return all. Closes #64" />
+    <MESSAGE value="Written test for Spring MockMVC Test for Visit Controller closes #67" />
+    <option name="LAST_COMMIT_MESSAGE" value="Written test for Spring MockMVC Test for Visit Controller closes #67" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -770,22 +771,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="591" y="310" key="Github.ShareDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591975640236" />
-    <state width="1404" height="328" key="GridCell.Tab.0.bottom" timestamp="1592324424553">
+    <state width="1404" height="108" key="GridCell.Tab.0.bottom" timestamp="1592388560967">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1404" height="328" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592324424553" />
-    <state width="1404" height="328" key="GridCell.Tab.0.center" timestamp="1592324424552">
+    <state width="1404" height="108" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592388560967" />
+    <state width="1404" height="108" key="GridCell.Tab.0.center" timestamp="1592388560967">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1404" height="328" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592324424552" />
-    <state width="1404" height="328" key="GridCell.Tab.0.left" timestamp="1592324424552">
+    <state width="1404" height="108" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592388560967" />
+    <state width="1404" height="108" key="GridCell.Tab.0.left" timestamp="1592388560967">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1404" height="328" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592324424552" />
-    <state width="1404" height="328" key="GridCell.Tab.0.right" timestamp="1592324424553">
+    <state width="1404" height="108" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592388560967" />
+    <state width="1404" height="108" key="GridCell.Tab.0.right" timestamp="1592388560967">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1404" height="328" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592324424553" />
+    <state width="1404" height="108" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592388560967" />
     <state width="1405" height="170" key="GridCell.Tab.1.bottom" timestamp="1592314889667">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -842,10 +843,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="647" y="344" key="VCS.ChangelistChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591976054371" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1592314810213">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1592326915725">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592314810213" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592326915725" />
     <state x="616" y="208" key="chooseDestDirectoryDialog" timestamp="1591460351573">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
