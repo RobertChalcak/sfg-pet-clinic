@@ -10,10 +10,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Written test for Spring MockMVC Test for Visit Controller closes #67">
+    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Declared the same data pattern from html/thymeleaf on Pet birthDate. Closes #81">
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/test/java/guru/springframework/sfgpetclinic/services/map/PetMapServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/VisitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/VisitController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
     <list id="9bb7b8ac-60af-4def-a823-112f625ff129" name="fixup! Implement Owner displaying record. Closes #53" comment="fixup! Implement Owner displaying record. Closes #53" />
@@ -85,9 +84,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="guru.springframework.sfgpetclinic.services.map" />
       <recent name="guru.springframework.sfgpetclinic.controllers" />
       <recent name="guru.springframework.sfgpetclinic.springdatajpa" />
-      <recent name="guru.springframework.sfgpetclinic.services.map" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -113,15 +112,7 @@
       <command value="mvn install -DskipTests=true" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.VisitControllerTest.initNewVisitForm">
-    <configuration name="All in pet-clinic-web" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pet-clinic-web" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PetMapServiceTest">
     <configuration name="OwnerControllerTest.processFindFormReturnMany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pet-clinic-web" />
       <extension name="coverage">
@@ -134,6 +125,21 @@
       <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.controllers.OwnerControllerTest" />
       <option name="METHOD_NAME" value="processFindFormReturnMany" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetMapServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pet-clinic-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.services.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.services.map" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.services.map.PetMapServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -194,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PetMapServiceTest" />
         <item itemvalue="JUnit.VisitControllerTest.initNewVisitForm" />
         <item itemvalue="JUnit.VisitControllerTest.precessNewVisitForm" />
         <item itemvalue="JUnit.VisitControllerTest" />
         <item itemvalue="JUnit.OwnerControllerTest.processFindFormReturnMany" />
-        <item itemvalue="JUnit.All in pet-clinic-web" />
       </list>
     </recent_temporary>
   </component>
@@ -223,13 +229,6 @@
       <workItem from="1591611456491" duration="4616000" />
       <workItem from="1591697571619" duration="3511000" />
       <workItem from="1591975861259" duration="36455000" />
-    </task>
-    <task id="LOCAL-00017" summary="Updated owner with JPA entity mappings. Closes #36">
-      <created>1591442391235</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1591442391235</updated>
     </task>
     <task id="LOCAL-00018" summary="Updated vet to use JPA. Closes #37">
       <created>1591442883770</created>
@@ -567,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592326911140</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Declared the same data pattern from html/thymeleaf on Pet birthDate. Closes #81">
+      <created>1592392474295</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1592392474295</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -670,7 +676,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Addinf circleCi build file" />
     <MESSAGE value="Adding badge. #60" />
     <MESSAGE value="Updated CircleCI configuration" />
     <MESSAGE value="Updated CircleCI configuration fixed syntax" />
@@ -695,7 +700,8 @@
     <MESSAGE value="Upgrading to Java 11" />
     <MESSAGE value="Written test for empty find owner last name by to return all. Closes #64" />
     <MESSAGE value="Written test for Spring MockMVC Test for Visit Controller closes #67" />
-    <option name="LAST_COMMIT_MESSAGE" value="Written test for Spring MockMVC Test for Visit Controller closes #67" />
+    <MESSAGE value="Declared the same data pattern from html/thymeleaf on Pet birthDate. Closes #81" />
+    <option name="LAST_COMMIT_MESSAGE" value="Declared the same data pattern from html/thymeleaf on Pet birthDate. Closes #81" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -771,22 +777,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="591" y="310" key="Github.ShareDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591975640236" />
-    <state width="1404" height="108" key="GridCell.Tab.0.bottom" timestamp="1592388560967">
+    <state width="1404" height="108" key="GridCell.Tab.0.bottom" timestamp="1592393266251">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1404" height="108" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592388560967" />
-    <state width="1404" height="108" key="GridCell.Tab.0.center" timestamp="1592388560967">
+    <state width="1404" height="108" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592393266251" />
+    <state width="1404" height="108" key="GridCell.Tab.0.center" timestamp="1592393266251">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1404" height="108" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592388560967" />
-    <state width="1404" height="108" key="GridCell.Tab.0.left" timestamp="1592388560967">
+    <state width="1404" height="108" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592393266251" />
+    <state width="1404" height="108" key="GridCell.Tab.0.left" timestamp="1592393266250">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1404" height="108" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592388560967" />
-    <state width="1404" height="108" key="GridCell.Tab.0.right" timestamp="1592388560967">
+    <state width="1404" height="108" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592393266250" />
+    <state width="1404" height="108" key="GridCell.Tab.0.right" timestamp="1592393266251">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1404" height="108" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592388560967" />
+    <state width="1404" height="108" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592393266251" />
     <state width="1405" height="170" key="GridCell.Tab.1.bottom" timestamp="1592314889667">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -843,18 +849,18 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="647" y="344" key="VCS.ChangelistChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591976054371" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1592326915725">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1592392475716">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592326915725" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592392475716" />
     <state x="616" y="208" key="chooseDestDirectoryDialog" timestamp="1591460351573">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="616" y="208" key="chooseDestDirectoryDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591460351573" />
-    <state x="529" y="192" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592322503681">
+    <state x="529" y="192" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592392891153">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="529" y="192" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592322503681" />
+    <state x="529" y="192" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592392891153" />
     <state x="530" y="180" key="extract.method.dialog" timestamp="1591349435887">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
